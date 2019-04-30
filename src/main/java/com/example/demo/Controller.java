@@ -52,7 +52,7 @@ public class Controller {
 	}
 	
 	@PostMapping("/maxParticipate")
-	public String maxParticipate() {
+	public String maxPsarticipate() {
 		return service.MaxParticipate();
 	}
 }
