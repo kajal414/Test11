@@ -36,6 +36,7 @@ public class Controller {
 	}
 	
 	@PostMapping("/displayAllSport")
+
 	public List<Sport> displayAllsport(){
 		return service.displayAllSport();
 	}
