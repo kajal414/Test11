@@ -26,7 +26,7 @@ public class Controller {
 	}
 	
 	@PostMapping("/displayAllStud")
-	public List<Student> displaystudent(){
+	public List<Student> displayAllstudent(){
 		return service.displayStudent();
 	}
 	
