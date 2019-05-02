@@ -20,7 +20,7 @@ public class Controller {
 	
 	
 	@PostMapping("/addstudent") 
-	public Student addstudent(@RequestBody Student stud)throws Exception {
+	public Student adstudent(@RequestBody Student stud)throws Exception {
 		return service.addStudent(stud);
 		
 	}
