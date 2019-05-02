@@ -27,7 +27,7 @@ public class Controller {
 	
 	@PostMapping("/displayAllStud")
 	public List<Student> displayAllstudent(){
-		return service.displayStudent();
+		return service.displayAllStudent();
 	}
 	
 	@PostMapping("/addsport")
@@ -37,7 +37,7 @@ public class Controller {
 	
 	@PostMapping("/displayAllSport")
 	public List<Sport> displayAllsport(){
-		return service.displaySport();
+		return service.displayAllSport();
 	}
 	
 	@PostMapping("/addparticipate")
