@@ -19,7 +19,9 @@ public class Controller {
 	ServiceClass service;
 	
 	
-	@PostMapping("/adstudentttttttttttt") 
+
+
+	@PostMapping("/adstud") 
 	public Student addstudent(@RequestBody Student stud)throws Exception {
 		return service.addStudent(stud);
 		
@@ -27,7 +29,7 @@ public class Controller {
 	
 	@PostMapping("/displayAllStud")
 	public List<Student> displayAllstudent(){
-		return service.displayAllStudent();
+		return service.displayStudent();
 	}
 	
 	@PostMapping("/addsport")
@@ -38,7 +40,7 @@ public class Controller {
 	@PostMapping("/displayAllSport")
 
 	public List<Sport> displayAllsport(){
-		return service.displayAllSport();
+		return service.displaySport();
 	}
 	
 	@PostMapping("/addparticipate")
